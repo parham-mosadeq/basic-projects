@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <h1>Jazz Player</h1>
+    <div class="container">
+      <div class="music-info">
+        <h4 id="title">jazzy dream</h4>
+        <div class="progress-container">
+          <div class="progress"></div>
+        </div>
+      </div>
+      <audio src="" id="audios"></audio>
+      <div class="img-container">
+        <img src="" alt="music covers" id="img" />
+      </div>
+      <div class="navigation" id="">
+        <button class="action-btn" id="prevBtn">
+          <i class="fas fa-backward"></i>
+        </button>
+        <button class="action-btn action-btn-big" id="playBtn">
+          <i class="plaies fas fa-play"></i>
+        </button>
+        <button class="action-btn" id="nextBtn">
+          <i class="fas fa-forward"></i>
+        </button>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="description">
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/parham-mosadeqzadeh-01253b1b7/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/parham-mosadeq?tab=projects "
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li class="dev-description">
+              <p>
+                created by <span class="dev-name">parham Mosadeqzadeh</span> |
+                <span class="music-credit"
+                  ><a href="https://vmusic.ir/genre/jazz/" target="_blank"
+                    >Music's used in this project</a
+                  >
+                </span>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
