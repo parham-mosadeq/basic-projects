@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.bg {
+  background: url('/filip-rankovic-grobgaard-2YnYERqgoa4-unsplash.jpg')
+    no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(70px);
+}
+
+.loading-txt {
+  font-size: 50px;
+  color: #fff;
+}
